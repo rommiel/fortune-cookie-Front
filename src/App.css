@@ -17,6 +17,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,6 +27,25 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.small {
+  font-size: 10px;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.txtArea {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cookie {
+  max-width: 400px;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
